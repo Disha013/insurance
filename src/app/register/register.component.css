@@ -16,12 +16,12 @@
 .form {
   position: relative;
   z-index: 1;
-  background: #48c9b0;
+  background: #198dd1;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 20px 0 white, 0 5px 5px 0 white;
   
 }
 .form input {
@@ -43,7 +43,7 @@ border-radius:10px;
   font-weight: bold;
   letter-spacing: .1em;
   outline: 0;
-  background: #17a589;
+  background: #198dd1;
   width: 100%;
   border: 0;
 border-radius:30px;
@@ -57,19 +57,19 @@ border-radius:30px;
 
 }
 .form button:hover,.form button:focus {
-  background: #148f77;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background: #198dd1;
+   box-shadow: 0 5px 10px white;
   transform: translateY(-4px);
 }
 .form button:active {
   transform: translateY(2px);
-  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2.5px 5px white;
 }
 
 .form .message {
   
   margin: 6px 6px;
-  color: #808080;
+  color: white;
   font-size: 11px;
   text-align: center;
   font-weight: bold;
@@ -109,7 +109,7 @@ border-radius:30px;
   color: #1a1a1a;
 }
 .container .info span {
-  color: #4d4d4d;
+  color: #198dd1;
   font-size: 12px;
 }
 .container .info span a {
@@ -117,14 +117,14 @@ border-radius:30px;
   text-decoration: none;
 }
 .container .info span .fa {
-  color: #EF3B3A;
+  color: #198dd1;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: #198dd1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #198dd1, #198dd1);
+  background: -moz-linear-gradient(right, #198dd1, #198dd1);
+  background: -o-linear-gradient(right, #198dd1, #198dd1);
+  background: linear-gradient(to left, #198dd1 , #198dd1);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;    
